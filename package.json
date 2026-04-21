@@ -2,7 +2,7 @@
   "name": "json-server-deploy",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
      "start": "json-server --watch db.json --port $PORT --host 0.0.0.0 --no-cors",
     "test": "echo \"Error: no test specified\" && exit 1"
